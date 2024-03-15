@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+</head>
+<body>
+
+    <main>
+        <div id="img">
+        </div>
+
+        <div id="formularios">
+            <h1>Login</h1>
+            <p>Seja bem vindo(a) novamente. Faça<br> login para acessar sua conta e<br>acessar seu ambiente virtual.</p>
+
+            <form method="post" action="Login.js">
+                <section>
+                    <div id="usuario" class="dados">
+                        <label for="iuser"> <img src="Imagens/Person-Icon.png" alt=""></label>
+                        <input type="email" name="email" id="iuser" class="box-input" required autocomplete="email" placeholder="   seu email">
+                    </div>
+                    <div id="senha" class="dados">
+                        <label for="isenha"> <img src="Imagens/Key-Icon.png" alt=""></label>
+                        <input type="password" name="senha" id="isenha" class="box-input" required placeholder="   sua senha">
+                    </div>
+                </section>
+
+                <section>
+                    <div id="entrar" class="botoes">
+                        <input type="submit" value="Entrar" class="box-submit">
+                    </div>
+                    <div id="esqueci-senha" class="botoes">
+                        <input type="submit" value="Esqueci a senha" class="box-submit">
+                    </div>
+                </section>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
